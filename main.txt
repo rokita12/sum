@@ -1,8 +1,10 @@
 #include <iostream>
 
 // Function to calculate the sum of two numbers
+
 int calculateSub(int a, int b) {
     return a - b ;
+
 }
 
 int main() {
@@ -18,10 +20,12 @@ int main() {
     std::cin >> number2;
 
     // Calculate the sum using the function
+
     int sum = calculateSub(number1, number2);
 
+
     // Print the result
-    std::cout << "Sum: " << sum << std::endl;
+    std::cout << "Sum: " << num << std::endl;
 
     return 0;
 }
