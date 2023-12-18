@@ -1,0 +1,27 @@
+#include <iostream>
+
+// Function to calculate the sum of two numbers
+int calculateSum(int a, int b) {
+    return a + b ;
+}
+
+int main() {
+    // Declare variables to store two numbers
+    int number1, number2;
+
+    // Get user input for the first number
+    std::cout << "Enter the first number: ";
+    std::cin >> number1;
+
+    // Get user input for the second number
+    std::cout << "Enter the second number: ";
+    std::cin >> number2;
+
+    // Calculate the sum using the function
+    int sum = calculateSum(number1, number2);
+
+    // Print the result
+    std::cout << "Sum: " << sum << std::endl;
+
+    return 0;
+}
